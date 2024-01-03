@@ -133,7 +133,6 @@ h4 {
 @media screen and (max-device-width: 600px) {
   body {
     margin: 0;
-    overflow: hidden;
   }
   .main {
     display: flex;
