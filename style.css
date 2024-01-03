@@ -171,4 +171,7 @@ h4 {
   #img1 {
     object-fit: cover;
   }
+  html {
+    margin: 0;
+  }
 }
