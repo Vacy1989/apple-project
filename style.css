@@ -2,7 +2,7 @@
   --beige: #fbfbfd;
   --gray: #f4f4f4;
   --orange: #fa8a3d;
-  --light-blue: #00acdf;
+  --blue: #06c;
 }
 body {
   background-color: white;
@@ -24,7 +24,7 @@ body {
   width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   border: 10px solid white;
 }
@@ -69,6 +69,7 @@ body {
   height: 350px;
   margin-top: 9%;
   object-fit: fill;
+  padding-bottom: 3%;
 }
 #img4 {
   width: 100%;
@@ -79,6 +80,13 @@ body {
 .row1 {
   display: flex;
   flex-direction: row;
+}
+p {
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 21px;
+  font-weight: 350;
+  text-align: center;
 }
 .row2 {
   display: flex;
@@ -99,27 +107,41 @@ body {
 }
 a {
   text-decoration: none;
-  color: var(--light-blue);
+  color: var(--blue);
 }
 .a {
-  padding-right: 2%;
+  padding-right: 5%;
+}
+#apple {
+  width: 20%;
 }
 h4 {
   color: var(--orange);
   margin-top: 0;
 }
+h1 {
+  font-size: 35px;
+  font-weight: 500;
+}
 h1,
 h4 {
   margin-bottom: 0;
-}
-#logo {
-  padding-left: 2%;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
 }
 .box-links {
   color: black;
 }
 .a:hover {
   text-decoration: underline;
+}
+#logo {
+  font-size: 32px;
+  font-weight: 500;
+  padding-left: 2%;
+}
+#text2 {
+  padding-bottom: 2%;
 }
 /* Media Queries */
 
@@ -131,12 +153,23 @@ h4 {
     width: 90%;
     height: auto;
     padding-left: 5%;
+    padding-top: 7%;
   }
 }
 @media screen and (max-device-width: 600px) {
   body {
     margin: 0;
   }
+
+  #logo {
+    display: flex;
+    flex-direction: row;
+    font-size: 26px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: baseline;
+  }
+
   .main {
     display: flex;
     flex-direction: column;
@@ -173,17 +206,22 @@ h4 {
   #img2 {
     object-fit: contain;
   }
+  #img3 {
+    height: 250px;
+  }
   #img1 {
     object-fit: cover;
   }
   h1 {
-    font-size: 2em;
+    font-size: 1.9em;
+    font-weight: 500;
   }
   p {
-    font-size: 0.8em;
+    font-size: 1.1em;
+    font-weight: 400;
   }
   a {
-    font-size: 0.6em;
+    font-size: 1em;
   }
   #img2 {
     display: none;
