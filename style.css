@@ -99,7 +99,7 @@ p {
   justify-content: center;
 }
 .links {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -207,7 +207,7 @@ h4 {
     object-fit: contain;
   }
   #img3 {
-    height: 250px;
+    height: 300px;
   }
   #img1 {
     object-fit: cover;
