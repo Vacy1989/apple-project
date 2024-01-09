@@ -235,7 +235,7 @@ h4 {
   }
   .links {
     width: 100%;
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
