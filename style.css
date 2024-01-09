@@ -105,13 +105,13 @@ p {
   justify-content: center;
   width: 100%;
 }
+#link1 {
+}
 a {
   text-decoration: none;
   color: var(--blue);
 }
-.a {
-  padding-right: 5%;
-}
+
 #apple {
   width: 20%;
 }
@@ -238,7 +238,7 @@ h4 {
     display: inline-flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
   }
   .a {
     display: flex;
