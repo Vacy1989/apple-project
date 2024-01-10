@@ -98,6 +98,12 @@ p {
   align-items: center;
   justify-content: center;
 }
+.link1 {
+  padding-right: 3%;
+}
+#link1 {
+  padding-right: 6%;
+}
 .links {
   display: inline-flex;
   flex-direction: row;
@@ -242,5 +248,19 @@ h4 {
   .a {
     display: flex;
     flex-direction: row;
+  }
+  .link1 {
+    padding-right: 0;
+    padding-left: 12%;
+  }
+  #link1 {
+    padding-right: 0;
+    padding-left: 8%;
+  }
+  .link2 {
+    padding-right: 17%;
+  }
+  #link2 {
+    padding-right: 6%;
   }
 }
